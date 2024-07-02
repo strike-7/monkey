@@ -11,55 +11,69 @@
 
 <body>
     <main>
-        <h1>Mankey test</h1>
+        <h1>Monkey test</h1>
         <div class="question hide" id="question1">
             <figure id="aqua">
-                <img src="GettyImages-488636063-5ab2dbd8a8ff48049cfd36e8ad841ae5.jpg">
-                <figcaption>DO you drink water?</figcaption>
+                <img src="images/GettyImages-488636063-5ab2dbd8a8ff48049cfd36e8ad841ae5.jpg">
+                <figcaption>Do you drink water?</figcaption>
             </figure>
             <div class="buttons" id="water-buttons">
                 <button id="yeas">Yes</button>
-                <button id="not">No</button>
+                <button id="not" onclick="noWater()">No</button>
             </div>
             <div class="hide" id="idby">
-                <h1>I dont believe you BUT wtv....</h1>
-                <button id="aqua-next">next....</button>
+                <h3>I dont believe you BUT wtv....</h3>
+                <button id="aqua-next">next.... (click me)</button>
             </div>
         </div>
 
         <div class="question hide" id="question2">
             <figure class="fruit" id="fruits">
-                <img src="Bunch-of-bananas-67e91d5.jpg">
-                <img src="watermelon.jpg">
-                <figcaption>Which looks tastier???</figcaption>
+                <img src="images/Bunch-of-bananas-67e91d5.jpg">
+                <img src="images/watermelon.jpg">
             </figure>
+            <figcaption>Which looks tastier???</figcaption>
+
             <div class="buttons" id="fruit-buttons">
                 <button id="banana" style="background-color: red; border: none;">banana</button>
                 <button id="watermelon" style="background-color: yellow; border: none;">watermelon</button>
             </div>
             <div class="hide" id="hmm">
-            <p>HMMMM..... intresting...... not suprising tho......</p>
-            <button id="ban-but"> last question...</button>
-                </div>
+                <p>HMMMM..... intresting...... not suprising tho......</p>
+                <button id="ban-but"> last question...</button>
+            </div>
         </div>
 
-        <div class="question">
+        <div class="question hide" id="question3">
             <figure>
-                <img src="a03700d8db424fd4bd77921136015b37.webp">
+                <img src="images/a03700d8db424fd4bd77921136015b37.webp">
                 <figcaption>Is this picture familiar to you?</figcaption>
             </figure>
-            <div>
+            <div id="man-but">
                 <button id="heck-yah">Very familiar</button>
                 <button id="heck-nah" onclick="randomDiss()">umm no</button>
             </div>
 
+            <div id="iki" class="hide">
+                <p>I knew it, this was just confirmation...</p>
+                <button id="final"> R E S U L T S </button>
+            </div>
         </div>
 
+        <div class="question hide" id="results">
+            <figure>
+                <img src="images/200.gif">
+                <figcaption>1000% Monkey !!!</figcaption>
+            </figure>
 
-        <div class="buttons hide" id="buttons">
-            <button id="yes">Yes</button>
-            <button id="no">No</button>
+
+            <h1 style="color: red;">DISCLAIMER</h1>
+            <h4>This test is 100% accurate</h4>
+            <h8>have a good day monkey!</h8>
+            <div>            <img src="images/bff5d074d399bdfec6071e9168398406.jpg">
+</div>
         </div>
+
     </main>
     <script src="scripts.js"></script>
 </body>

@@ -31,3 +31,18 @@ function randomDiss() {
         alert(x[getRandomInt(3)])
 
 }
+
+$('#heck-yah').on('click', () =>{
+    $('#man-but').toggle();
+    $('#iki').show('slow');
+})
+
+function noWater() {
+    let x = ["yes u do, otherwise YOUD BE DEAD", "humans are like 50% water or sum like that idk"]
+    alert(x[getRandomInt(3)])
+}
+
+$('#final').on('click', () =>{
+    $('#question3').toggle();
+    $('#question3').next().toggle('slow')
+})
