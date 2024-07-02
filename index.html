@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mankey test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Mankey test</h1>
+        <div class="question hide" id="question1">
+            <figure id="aqua">
+                <img src="images/GettyImages-488636063-5ab2dbd8a8ff48049cfd36e8ad841ae5.jpg">
+                <figcaption>DO you drink water?</figcaption>
+            </figure>
+            <div class="buttons" id="water-buttons">
+                <button id="yeas">Yes</button>
+                <button id="not">No</button>
+            </div>
+            <div class="hide" id="idby">
+                <h1>I dont believe you BUT wtv....</h1>
+                <button id="aqua-next">next....</button>
+            </div>
+        </div>
+
+        <div class="question hide" id="question2">
+            <figure class="fruit" id="fruits">
+                <img src="images/Bunch-of-bananas-67e91d5.jpg">
+                <img src="images/watermelon.jpg">
+                <figcaption>Which looks tastier???</figcaption>
+            </figure>
+            <div class="buttons" id="fruit-buttons">
+                <button id="banana" style="background-color: red; border: none;">banana</button>
+                <button id="watermelon" style="background-color: yellow; border: none;">watermelon</button>
+            </div>
+            <div class="hide" id="hmm">
+            <p>HMMMM..... intresting...... not suprising tho......</p>
+            <button id="ban-but"> last question...</button>
+                </div>
+        </div>
+
+        <div class="question">
+            <figure>
+                <img src="images/a03700d8db424fd4bd77921136015b37.webp">
+                <figcaption>Is this picture familiar to you?</figcaption>
+            </figure>
+            <div>
+                <button id="heck-yah">Very familiar</button>
+                <button id="heck-nah" onclick="randomDiss()">umm no</button>
+            </div>
+
+        </div>
+
+
+        <div class="buttons hide" id="buttons">
+            <button id="yes">Yes</button>
+            <button id="no">No</button>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

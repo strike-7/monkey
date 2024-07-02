@@ -1,0 +1,45 @@
+body{
+    background-color: grey;
+}
+
+.question{
+    border:1px solid red;
+    text-align: center;
+    margin: auto;
+    width:90%;
+    height: 80%;
+}
+
+.hide{
+    display:none;
+}
+img{
+    max-width: 250px;
+    border-radius: 10px;
+}
+.fruit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.177);
+    border-radius: 10px;
+    height: 100%;
+    margin: auto;
+}
+.buttons{
+    text-align: center;
+}
+#aqua-next{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+#ban-but{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
