@@ -39,7 +39,7 @@ $('#heck-yah').on('click', () =>{
 
 function noWater() {
     let x = ["yes u do, otherwise YOUD BE DEAD", "humans are like 50% water or sum like that idk"]
-    alert(x[getRandomInt(3)])
+    alert(x[getRandomInt(2)])
 }
 
 $('#final').on('click', () =>{
